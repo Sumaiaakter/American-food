@@ -27,11 +27,12 @@ body{
     
 
 }
-.restaurent-name{
+.color-name{
     color: red;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -53,7 +54,8 @@ section{
 .one-third{
     width: 33.33%;
     margin-left: 5%;
-    margin-right: 5%;box-shadow: 10px 10px 35px;
+    margin-right: 5%;
+    box-shadow: 10px 10px 35px grey;
     border-radius: 20px;
     text-align: center;
     
@@ -72,6 +74,18 @@ section{
     background: rgb(255, 30, 0);
     color: rgb(13, 36, 241);
 }
-.flexible-container{
-    display: flex;
+#types1{
+    border-image: linear-gradient(blue, red);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+#types2{
+    border-image: linear-gradient(rgb(11, 241, 88), red);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+#types3{
+    border-image: linear-gradient(rgb(219, 6, 113), rgb(10, 166, 228));
+    border-left: 7px solid;
+    border-image-slice: 1;
 }
