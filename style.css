@@ -1,4 +1,32 @@
 
+body{
+    margin: 0%;
+}
+#first{
+    padding-top: 20px;
+}
+
+
+
+.top-banner{
+    background-image: url(image/banner-top.jpg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+.bottom-banner{
+    background-image: url(image/banner-bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
+}
+.bottom-banner-left{
+    background-image: url(image/bottom-banner-left.jpg);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left;
+    
+
+}
 .restaurent-name{
     color: red;
 }
@@ -34,8 +62,8 @@ section{
 .one-third img{
     width: 33%;
 }
-#pi{
-    border-left: 7px;
+#picture{
+    border: red;
     border-image: linear-gradient(blue, red);
     border-image-slice: 1;
 }
@@ -43,4 +71,7 @@ section{
     text-align: center;
     background: rgb(255, 30, 0);
     color: rgb(13, 36, 241);
+}
+.flexible-container{
+    display: flex;
 }
